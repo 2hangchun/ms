@@ -1,0 +1,18 @@
+.loginBox {
+
+        // 属性选择器
+        [class*="ant-input"] {
+                background-color: rgba(255, 255, 255, 0);
+                color: #fff;
+
+                // &表示父选择器
+                &::-webkit-input-placeholder {
+                        color: #fff
+                }
+        }
+
+        .ant-input-password-icon {
+                color: #fff !important;
+        }
+
+}
